@@ -1,0 +1,63 @@
+.big-apple-item-section {
+    padding: 100px 0 0 0;
+
+    .row {
+        --bs-gutter-x: 0;
+
+        .item-card {
+            border-style: solid;
+            border-width: 2px;
+            border-color: #EDEDED;
+            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+            padding: 15px 10px;
+            box-sizing: border-box;
+            height: 100%;
+            
+            
+           .item-image img{
+                border-radius: 10px;
+                width: 251px;
+                height: 292px;
+                @include responsive($tablet){
+                    width: 214px;
+                    height: 249;
+                }
+                @include responsive($mobile-horizontal){
+                    width: 155px;
+                    height: 184px;
+                }
+                @include responsive($mobile){
+                    width: 254px !important;
+                    height: 292px !important;
+                }
+
+            }
+        
+            .item-content {
+                 margin-top: 20px;
+                 box-sizing: border-box;
+        
+                h2 {
+                    max-width: 253px;
+                    margin: 0 auto;
+                    font-size: 28px;
+                    font-weight: 500;
+                    color: $black-100;
+                    @include responsive($mobile){
+                        font-size: 20px;
+                    }
+                    
+                }
+        
+                h3 {
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: rgba(0,0,0,.5);
+                }
+    
+            }
+        }
+    }
+}
+
+    

@@ -1,0 +1,60 @@
+.big-apple-post-template-section {
+    border-top: 1px solid $gray-300;
+
+    .page-content {
+        margin: 0 70px 0 70px;
+        @include responsive($mobile){
+            margin:10px 0;
+        }
+
+        .post-header h1{
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 24px;
+            color: $black-500;
+            margin: 20px 0 30px;
+            @include responsive($mobile){
+                line-height: 40px;
+            }
+        }
+
+        .post-content {
+            margin-top: 8px;
+
+            h2 {
+                font-size: 28px;
+                font-weight: 600;
+                color: $black-700;
+                margin-bottom: 16px;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 16px;
+                color: $black-500;
+                margin-bottom: 20px;
+            }
+
+            .list-2 {
+                margin: 0;
+            }
+
+            strong {
+                font-weight: 800;
+                font-size: 16px;
+                color: $black-500;
+            }
+
+            .page-btn {
+                margin-top: 15px;
+                margin-bottom: 50px;
+            }
+
+            .post-tag {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+}

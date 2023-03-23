@@ -1,0 +1,21 @@
+.footer-section {
+    padding: 20px 0;
+    @include responsive($mobile-horizontal){
+        padding: 50px 0;
+    }
+    
+    .big-apple-clearfix {
+        p {
+            font-size: 16px;
+            color: $black-600;
+            font-weight: 400;
+            @include responsive($mobile){
+                display: revert !important;
+            }
+            @include responsive($tablet){
+                display: none;
+            }
+        }
+        
+    }
+}

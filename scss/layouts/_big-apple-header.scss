@@ -1,0 +1,23 @@
+.big-apple-header {
+    
+    .navbar-toggler {
+        background-color: $gray-200;
+        color: $black-700;
+    }
+
+    .big-apple-menu a {
+        font-size: 16px;
+        font-family: $font-krub;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding: 0 15px;
+        transition: all .4s ease;
+        @include responsive($mobile-horizontal){
+            display: none;
+        }
+
+        &:hover {
+            color:$yellow-100;
+        }
+    }
+}

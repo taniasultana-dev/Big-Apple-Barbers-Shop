@@ -1,0 +1,28 @@
+{
+  "name": "big-apple-barbers-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch":"mix watch",
+    "prod":"mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taniasultana-dev/Big-Apple-Barbers-Shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taniasultana-dev/Big-Apple-Barbers-Shop/issues"
+  },
+  "homepage": "https://github.com/taniasultana-dev/Big-Apple-Barbers-Shop#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0"
+  }
+}

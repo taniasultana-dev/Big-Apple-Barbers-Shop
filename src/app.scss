@@ -1,0 +1,22 @@
+//utilitis
+@import '../scss/utilitis/variable';
+@import '../scss/utilitis/mixin';
+
+//base
+@import '../scss/base/reset';
+
+//layouts
+@import '../scss/layouts/big-apple-top';
+@import '../scss/layouts/big-apple-header';
+@import '../scss/layouts/big-apple-banner';
+@import '../scss/layouts/big-apple-item';
+@import '../scss/layouts/footer';
+@import '../scss/layouts/big-apple-profile';
+@import '../scss/layouts/big-apple-gallery';
+@import '../scss/layouts/big-apple-contact';
+@import '../scss/layouts/blog-apple-blog';
+@import '../scss/layouts/big-apple-post';  
+
+//components
+@import '../scss/components/button';
+

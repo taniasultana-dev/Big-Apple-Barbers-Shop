@@ -1,0 +1,36 @@
+.big-apple-contact-section {
+    padding: 50px 0;
+    overflow: hidden;
+
+    .contact-title {
+        font-size: 43px;
+        font-weight: 500;
+        @include responsive($mobile-horizontal){
+            white-space: nowrap;
+        }
+        @include responsive($mobile){
+            font-size: 28px;
+        }
+    }
+
+    .contact-sub-title {
+        font-size: 54px;
+        font-weight: 700;
+        color: $orange-200;
+        margin: 8px 0 23px 0;
+        @include responsive($mobile){
+            font-size: 26px;
+        }
+    }
+
+    .contact-description {
+        font-size: 23px;
+        font-weight: 400;
+        color: $black-400;
+        line-height: 32px;
+        font-family: $font-lato;
+        @include responsive($mobile){
+            font-size: 18px;
+        }
+    }
+}

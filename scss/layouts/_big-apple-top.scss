@@ -1,0 +1,164 @@
+.big-apple-top-section {
+    padding: 0 0 120px 0;
+    position: relative;
+    background-image:url('../images/big-apple-barber-shop-banner-main-image.webp');
+    background-position: top center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .big-apple-top-header {
+
+        .left-image img{
+            width: 238px;
+            height: 242px;
+            @include responsive($mobile){
+                display: none;
+            }
+        }
+
+        .right-image{
+           width: 93;
+           height: 44;
+           @include responsive($mobile){
+                display: none;
+            }
+
+        }
+    }
+
+    .big-apple-top-main {
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        @include responsive($tablet){
+            top: 165px;
+        }
+        @include responsive($mobile){
+            top: 90px;
+        }
+
+        .main-image img{
+            width: 709px;
+            height: 373px;
+            @include responsive($tablet){
+                width: 371px;
+                height: 195px;
+            }
+            @include responsive($mobile){
+                width: 520px;
+                height: 373px;
+                padding: 0 0 100px 0;
+            }   
+        }
+    }
+
+    .big-apple-top-footer {
+       
+        .particle {
+            padding: 300px 0 0 0;
+            @include responsive($mobile){
+                display: none;
+            }
+        }
+
+        .footer-right-image {
+            padding: 100px 0 0 0;
+            @include responsive($mobile){
+                display: none;
+            }
+        }
+    }
+
+    .big-apple-btn-wrapper {
+          margin-top: -80px;
+          @include responsive($tablet){
+            margin: 0;
+          }
+          @include responsive($mobile){
+            padding: 370px 0 0 0;
+          }
+
+        .shadow-text {
+            top: -25%;
+            left: 16%;
+            font-weight: 700;
+            font-size: 100px;
+            letter-spacing: 0px;
+            -webkit-text-fill-color: #02010100;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #393939;
+            @include responsive($tablet){
+                font-size: 74px;
+            }
+            @include responsive($mobile){
+                display: none;
+            }
+        }
+    }
+
+    .container-620 {
+        padding: 60px 0 0 0;
+    }
+
+    .big-apple-top-contact {
+        padding: 80px 0 80px 0;
+        @include responsive($tablet){
+            padding: 40px 0;
+        }
+
+        .shadow-text {
+            top: -25%;
+            left: 17%;
+            font-size: 140px;
+            font-weight: 700;
+            letter-spacing: 0px;
+            -webkit-text-fill-color: #02010100;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #393939;
+            @include responsive($tablet){
+                font-size: 116px;
+            }
+            @include responsive($mobile){
+                display: none;
+            }
+        }
+
+        .contact-details {
+            position: absolute;
+            left: 50%;
+            top: 175px;
+            transform: translatex(-50%);
+            @include responsive($tablet){
+                top: 108px;
+            }
+            @include responsive($mobile){
+                top: 50px;
+            }
+
+            .sub-title {
+                font-size: 31px;
+                font-weight: 500;
+                color: $yellow-200;
+                @include responsive($mobile){
+                    font-size: 23px;
+                }
+            }
+
+            .title {
+                font-size: 46px;
+                font-weight: 500;
+                color: $white-300;
+                @include responsive($mobile-horizontal){
+                    font-size: 41px;
+                }
+                @include responsive($mobile){
+                    font-size: 29px;
+                }
+            }
+        }
+    }
+}
+
