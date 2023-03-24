@@ -6,16 +6,16 @@
 @import '../scss/base/reset';
 
 //layouts
-@import '../scss/layouts/big-apple-top';
-@import '../scss/layouts/big-apple-header';
-@import '../scss/layouts/big-apple-banner';
-@import '../scss/layouts/big-apple-item';
+@import '../scss/layouts/top';
+@import '../scss/layouts/header';
+@import '../scss/layouts/banner';
+@import '../scss/layouts/item';
 @import '../scss/layouts/footer';
-@import '../scss/layouts/big-apple-profile';
-@import '../scss/layouts/big-apple-gallery';
-@import '../scss/layouts/big-apple-contact';
-@import '../scss/layouts/blog-apple-blog';
-@import '../scss/layouts/big-apple-post';  
+@import '../scss/layouts/profile';
+@import '../scss/layouts/gallery';
+@import '../scss/layouts/contact';
+@import '../scss/layouts/blog';
+@import '../scss/layouts/post';  
 
 //components
 @import '../scss/components/button';
